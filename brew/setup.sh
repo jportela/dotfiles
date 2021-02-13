@@ -22,22 +22,24 @@ brew install httpie
 brew install nvm
 
 # Apps
-brew cask install visual-studio-code
-brew cask install alfred
-brew cask install caffeine
-brew cask install docker
-brew cask install dropbox
-brew cask install 1password
-brew cask install spectacle
-brew cask install vlc
-brew cask install onedrive
-brew cask install paste
-brew cask install spotify
-brew cask install iterm2
-brew cask install fork
-brew cask install slack
-brew cask install daisydisk
-brew cask install firefox
-brew cask install the-unarchiver
+brew install --cask visual-studio-code
+brew install --cask alfred
+brew install --cask caffeine
+brew install --cask docker
+brew install --cask 1password
+brew install --cask spectacle
+brew install --cask vlc
+brew install --cask onedrive
+brew install --cask spotify
+brew install --cask iterm2
+brew install --cask fork
+brew install --cask slack
+brew install --cask daisydisk
+brew install --cask the-unarchiver
+brew install --cask zoom
+
+# Fonts
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code
 
 brew cleanup
