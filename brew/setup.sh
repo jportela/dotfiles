@@ -7,7 +7,6 @@ brew upgrade
 brew install coreutils
 brew install wget
 brew install git
-brew install openssh
 
 # ZSH
 brew install zsh
