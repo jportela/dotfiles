@@ -2,3 +2,5 @@
   name = Joao Portela
   email = joao.portela@gmail.com
 
+[pull]
+	ff = only

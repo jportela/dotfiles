@@ -14,8 +14,8 @@ plugins=(git z)
 
 source $ZSH/oh-my-zsh.sh
 
-source $(pwd)/term/.aliases
-source $(pwd)/term/.env
+source $HOME/code/jportela/dotfiles/term/.aliases
+source $HOME/code/jportela/dotfiles/term/.env
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

@@ -36,9 +36,14 @@ brew install --cask slack
 brew install --cask daisydisk
 brew install --cask the-unarchiver
 brew install --cask zoom
+brew install --cask notion
 
 # Fonts
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
+
+# Drivers
+brew tap homebrew/cask-drivers
+brew install logitech-options
 
 brew cleanup
